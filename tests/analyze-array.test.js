@@ -33,9 +33,9 @@ test('analyze array returns object: empty array', () => {
 })
 
 test('analyze array returns object: undefined', () => {
-    expect(analyzeArray(undefined)).toEqual(undefined);
+    expect(analyzeArray(undefined)).toBeUndefined();
 })
 
 test('analyze array returns object: null', () => {
-    expect(analyzeArray(null)).toEqual(null);
+    expect(analyzeArray(null)).toBeNull();
 })
