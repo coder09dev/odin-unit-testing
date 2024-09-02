@@ -29,9 +29,9 @@ test('Capitalize first char of string: Empty String', () => {
 });
 
 test('Capitalize first char of string: undefined', () => {
-    expect(capitalize(undefined)).toEqual(undefined);
+    expect(capitalize(undefined)).toBeUndefined();
 });
 
 test('Capitalize first char of string: null', () => {
-    expect(capitalize(null)).toEqual(null);
+    expect(capitalize(null)).toBeNull();
 });
