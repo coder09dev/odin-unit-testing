@@ -37,9 +37,9 @@ test('Skip punctuations: shift string "!$#*&^%" by 1', () => {
 })
 
 test('Shift undefined by 1', () => {
-    expect(caesarCipher(undefined, 1)).toEqual(undefined);
+    expect(caesarCipher(undefined, 1)).toBeUndefined();
 })
 
 test('Shift null by 1', () => {
-    expect(caesarCipher(null, 1)).toEqual(null);
+    expect(caesarCipher(null, 1)).toBeNull();
 })
