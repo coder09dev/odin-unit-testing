@@ -25,9 +25,9 @@ test('reverse a given string: a single char', () => {
 })
 
 test('reverse a given string: undefined', () => {
-    expect(reverseString(undefined)).toEqual(undefined);
+    expect(reverseString(undefined)).toBeUndefined();
 })
 
 test('reverse a given string: null', () => {
-    expect(reverseString(null)).toEqual(null);
+    expect(reverseString(null)).toBeNull();
 })
